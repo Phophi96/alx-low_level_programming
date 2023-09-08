@@ -1,22 +1,19 @@
-Task 6
-
 #include <stdio.h>
-#include <unistd.h>
+
+
 /**
- * main - Entry point
- * Description: prints char below 10
- * Return: Always 0 (success)
+ *main - Prints numbers from 0 to 9
+ * Return:(0)
  */
 
 int main(void)
 {
-	int a;
+	int i;
 
-	for (a = 0; a < 10; a++)
+	for (i = 48; i < 58; i++)
 	{
-		putchar(a + '0');
+	putchar(i);
 	}
 	putchar('\n');
 	return (0);
 }
-
