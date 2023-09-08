@@ -11,7 +11,7 @@ int main(void) {
         letter++;
     }
 
-    putchar('\n'); // Print a newline character
+    putchar('\n');
 
     return 0;
 }
