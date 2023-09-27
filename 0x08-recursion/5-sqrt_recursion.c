@@ -18,14 +18,14 @@ int _sqrt_recursion(int f)
 /**
  * actual_sqrt_recursion - recurses to find the natural
  * square root of a number
- * @n: number to calculate the sqaure root of
+ * @f: number to calculate the sqaure root of
  * @i: iterator
  *
  * Return: the resulting square root
  */
 int actual_sqrt_recursion(int f, int i)
 {
-	if (i * i > n)
+	if (i * i > f)
 		return (-1);
 	if (i * i == f)
 		return (i);
